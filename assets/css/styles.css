@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ul.nav a:hover {
+    background-color: whitesmoke !important;
+}
+
+.nav-end>button:hover {
+    background-color: whitesmoke !important;
+}
+
+a.dropdown-item:focus {
+    background-color: rgb(240, 237, 237);
+    color: black;
+}
+
+#btn-cart-bottom:hover {
+    background-color: whitesmoke !important;
+}
+
+#card-category:hover>div {
+    display: block !important;
+    animation: BottomToTop 0.5s !important;
+}
+
+#card-category > div{
+    bottom: 0;
+}
+
+#card-category>div>button:hover {
+    background-color: black;
+    color: white;
+}
+
+@keyframes FadeOut {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes BottomToTop {
+    from {
+        bottom: -20%;
+    }
+
+    to {
+        bottom: 0;
+    }
+}
+
+.dropdown-menu {
+    animation: FadeOut 0.6s;
+}
