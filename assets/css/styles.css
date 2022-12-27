@@ -47,7 +47,7 @@ a.dropdown-item:focus {
 
 @keyframes BottomToTop {
     from {
-        bottom: -20%;
+        bottom: -10%;
     }
 
     to {
